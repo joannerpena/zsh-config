@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/JoannerPena/.oh-my-zsh
+export ~/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -10,7 +10,7 @@ ZSH_THEME="bullet-train"
 
 #Variables del Tema
 BULLETTRAIN_TIME_12HR=true
-BULLETTRAIN_CUSTOM_MSG='GeekDev And Design'
+BULLETTRAIN_CUSTOM_MSG='Your Message'
 BULLETTRAIN_NVM_SHOW=false
 BULLETTRAIN_GO_SHOW=true
 
@@ -23,10 +23,8 @@ alias vconfig='sudo sublime ~/.vimrc'
 alias path='sudo sublime ~/.path'
 alias brewup='brew update && brew upgrade && brew outdated && brew cleanup'
 alias home='cd ~/Desktop'
-alias lab="cd ~/Dropbox\ \(GeekDev\ \&\ Design\)/Lab\'s"
 alias cppcompile='c++ -std=c++11 -stdlib=libc++'
 alias host='sudo sublime /private/etc/hosts'
-alias webserver='ssh joannerpena@10.0.0.203'
 alias brewi='brew install'
 alias gnl='git nicelog'
 alias gs='git status'
